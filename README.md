@@ -31,3 +31,9 @@ To run the scenarios in parallel across the features, specify the features list 
   List<String> tags = Arrays.asList("~@ignore");
   List<String> features = Arrays.asList("classpath:com/sarva/apitest/cars-1.feature", "classpath:com/sarva/apitest/cars-2.feature");
   Results results = Runner.parallel(tags, features, 2, "target/surefire-reports");
+
+
+# command line test execution
+./gradlew test -Dtest=CarsApiTest
+
+./gradlew test -Dtest=CarsApiTest -Dkarate.options="--tags @ignore"
