@@ -7,4 +7,4 @@ Ensure the service which we are using in this Test is up and running [in this ca
 
 View Test reports @ /api-test/target/surefire-reports/com.sarva.apitest.cars-2.html, if the test was ran using @RunWith
 
-View Test reports @ /api-test/target/surefire-reports/com.sarva.apitest.cars-2.json, if the test was ran in parallel [with no @RunWith and with @Test]
+View Test reports @ /api-test/target/surefire-reports/com.sarva.apitest.cars-2.json and /api-test/target/surefire-reports/timeline.html, if the test was ran in parallel [with no @RunWith and with @Test]
