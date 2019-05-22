@@ -14,7 +14,7 @@ import com.intuit.karate.Runner;
 import com.intuit.karate.junit4.Karate;
 
 @RunWith(Karate.class)
-@KarateOptions(features = {"classpath:com/sarva/apitest/cars-1.feature", "classpath:com/sarva/apitest/cars-2.feature"}, tags = {"~@ignore"})
+@KarateOptions(features = {"classpath:com/sarva/apitest/cars-1.feature", "classpath:com/sarva/apitest/cars-2.feature"})
 public class CarsApiTest {
 
 	// @Test
