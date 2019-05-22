@@ -10,6 +10,7 @@ View Test reports @ /api-test/target/surefire-reports/com.sarva.apitest.cars-2.h
 View Test reports @ /api-test/target/surefire-reports/com.sarva.apitest.cars-2.json and /api-test/target/surefire-reports/timeline.html, if the test was ran in parallel [with no @RunWith and with @Test]
 
 annotate a scenario in feature file or a feature file, if you dont want to run the test in parallel 
+
 @parallel=true
 Scenario: Get car by make
 //
