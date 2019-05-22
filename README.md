@@ -28,6 +28,6 @@ Scenario: Get all the cars
 //
 
 To run the scenarios in parallel across the features, specify the features list or if you want to run the scenarions in parallel within the features, list only one feature file below:
-List<String> tags = Arrays.asList("~@ignore");
-List<String> features = Arrays.asList("classpath:com/sarva/apitest/cars-1.feature", "classpath:com/sarva/apitest/cars-2.feature");
-Results results = Runner.parallel(tags, features, 2, "target/surefire-reports");
+  List<String> tags = Arrays.asList("~@ignore");
+  List<String> features = Arrays.asList("classpath:com/sarva/apitest/cars-1.feature", "classpath:com/sarva/apitest/cars-2.feature");
+  Results results = Runner.parallel(tags, features, 2, "target/surefire-reports");
